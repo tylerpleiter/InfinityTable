@@ -39,3 +39,7 @@ Partially finished project to create a custom infinity table. Currently works as
 
 - Due to amount of LEDs to write, communication suffers between ATmega and ESP8266 causing function changes to fail
 
+## Credit:
+
+- FastLED Library - Daniel Garcia, Mark Kriegsman
+- ESP32 HTML Sketch (modified) - Rui Santos
