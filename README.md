@@ -18,6 +18,9 @@ Materials:
 - Pine (Bunnings)
 - - 776x476x18mm
 - Corner Brackets and Screws (Bunnings)
+- Glass (Local Glazier)
+- - 6mm 772x485mm
+- - 3mm 766x479mm
 - 60 leds/m -non-waterproof -ws2812B -black -5m (Amazon)
 - Switching LED Power Supply 220VAC-5VDC 40A (Ebay)
 - Arduino ATMega with WiFi (ESP8266) (Jaycar)
