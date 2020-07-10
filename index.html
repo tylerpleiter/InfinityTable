@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}
+body {background-color: black;}
+h1 {color:white;}
+.button { background-color: #0261d5; border: none; color: white; padding: 16px 40px;
+text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer; height: 70px; width: 200px;}
+.button2 {background-color: #7ab6fe;}
+.colorpicker {border: none; padding: none; height: 70px; width: 200px;}</style></head>
+<body><h1>Infinity Table </h1>
+<p><input type="color" class="colorpicker" id="colorPickerId" value="#e66465"></p>
+<p><a href="http://192.168.1.2/0" id="colorPickerLink" onclick="getInputValue();"><button class="button button2">Colour</button></a></p>
+
+<p><a href="/0"><button class="button button2">Rainbow</button></a></p>
+<p><a href="http://192.168.1.2/1"><button class="button button2">Glitter</button></a></p>
+<p><a href="http://192.168.1.2/2"><button class="button">Confetti</button></a></p>
+<p><a href="http://192.168.1.2/3"><button class="button button2">Sinelon</button></a></p>
+<p><a href="http://192.168.1.2/4"><button class="button button2">Juggle</button></a></p>
+<p><a href="http://192.168.1.2/5"><button class="button button2">BPM</button></a></p>
+<script>
+	function getInputValue() {
+		var colorLink = "/c/";
+		colorLink = colorLink.concat(document.getElementById("colorPickerId").value);
+		document.getElementById("colorPickerLink").href=colorLink;
+	}
+</script>
+</body></html>
